@@ -20,6 +20,7 @@ header .container {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 10px 15px 10px 15px;
 }
 
 header .logo {
@@ -33,13 +34,18 @@ header nav a {
   text-decoration: none;
   color: #aaa;
   margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+
 }
 
 header nav a:hover {
   color: #fff;
 }
 
-/*Filme principal*/
+.container {
+  margin: 5px;
+}
 
 .filme-principal {
   font-size: 15px;
@@ -51,6 +57,7 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding: 20px;
 }
 
 .filme-principal .descricao {
@@ -59,7 +66,7 @@ header nav a:hover {
 }
 
 .filme-principal .titulo {
-  margin-top: 15%;
+  margin-top: 1%;
   font-size: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -84,4 +91,10 @@ header nav a:hover {
 
 .botao i {
   margin-right: 8px;
+}
+
+.box-filmes {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
